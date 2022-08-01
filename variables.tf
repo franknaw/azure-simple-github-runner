@@ -33,16 +33,6 @@ variable "public_key" {
   type        = string
 }
 
-variable "source_address_prefixes" {
-  description = "Tags to be applied to resources"
-  type        = map(string)
-}
-
-variable "destination_address_prefix" {
-  description = "Tags to be applied to resources"
-  type        = string
-}
-
 variable "github_runner_token" {
   description = "The GitHub runner token."
   type        = string
